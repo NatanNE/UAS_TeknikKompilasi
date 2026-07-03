@@ -3,6 +3,7 @@
 # Nim 231011400113
 
 Penjelasan Tahapan Kompilasi
+
 A. Analisis Leksikal (Lexer)
 Pada tahap ini, kode sumber string dipecah menjadi unit terkecil yang disebut Token. Program menggunakan Regular Expression untuk mengidentifikasi apakah sebuah kata termasuk kata kunci (while), operator (<, +), identifier (counter), atau simbol ({, }).
 Hasil: Kumpulan token seperti [WHILE: while], [LPAREN: (], dst.
