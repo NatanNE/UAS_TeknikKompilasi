@@ -1,0 +1,9 @@
+<while_stmt>    ::= "while" "(" <condition> ")" "{" <stmt_list> "}"
+<condition>     ::= <identifier> <relop> <value>
+<stmt_list>     ::= <assignment> ";"
+<assignment>    ::= <identifier> "=" <expression>
+<expression>    ::= <identifier> <arith_op> <identifier>
+<relop>         ::= "<" | ">" | "==" | "!="
+<arith_op>      ::= "+" | "-" | "*" | "/"
+<identifier>    ::= [a-zA-Z_][a-zA-Z0-9_]*
+<value>         ::= [0-9]+
