@@ -1,3 +1,7 @@
+# UAS_TeknikKompilasi
+# Natan Nael
+# Nim 231011400113
+
 <while_stmt>    ::= "while" "(" <condition> ")" "{" <stmt_list> "}"
 <condition>     ::= <identifier> <relop> <value>
 <stmt_list>     ::= <assignment> ";"
